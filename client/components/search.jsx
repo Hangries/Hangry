@@ -1,11 +1,11 @@
 const React = require('react');
 
 const Search = () => (
-  <form className="form-inline">
-    <label className="sr-only" for="inlineFormInput">Name</label>
+  <form inline className="form-inline">
+    <label className="sr-only">Name</label>
     <input type="text" className="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Jane Doe" />
 
-    <label className="sr-only" for="inlineFormInputGroup">Username</label>
+    <label className="sr-only">Username</label>
     <div className="input-group mb-2 mr-sm-2 mb-sm-0">
       <div className="input-group-addon">@</div>
       <input type="text" className="form-control" id="inlineFormInputGroup" placeholder="Username" />
