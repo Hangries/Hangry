@@ -6,7 +6,7 @@ const SortList = (props) => {
 
   const handleClick = (e) => {
     props.sortList(e.target.id);
-  }
+  };
 
   return (
     <div className="row no-gutters">
@@ -20,7 +20,7 @@ const SortList = (props) => {
         </ul>
       </div>
     </div>
-  )
+  );
 };
 
 
