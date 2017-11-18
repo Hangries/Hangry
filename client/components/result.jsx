@@ -23,7 +23,7 @@ class Result extends React.Component {
         </div>
         <div className="row card-block card" style={{paddingTop: '7px'}}>
           <div className="col col-md-12 text-center">
-            <img className="rounded float-left" src={this.props.result.logo}></img>
+            <img className="rounded float-left logo" src={this.props.result.logo}></img>
 
             <p className="lead">
               <h2>{this.props.result.items[0].item}</h2>
@@ -70,8 +70,8 @@ class Result extends React.Component {
             </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
-module.exports = Result;
+module.exports = Result
